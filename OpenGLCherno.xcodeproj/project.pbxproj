@@ -13,7 +13,18 @@
 		003C4EF226C37BEF00B8F132 /* libGLEW.2.1.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 003C4EF026C37BEF00B8F132 /* libGLEW.2.1.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		00846BB026C39BF600637B13 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EEC26C37BE700B8F132 /* libglfw.3.3.dylib */; };
 		00846BB126C39BF600637B13 /* libglfw.3.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 003C4EEC26C37BE700B8F132 /* libglfw.3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		00846BB326C47BD300637B13 /* draw_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00846BB226C47BD300637B13 /* draw_triangle.cpp */; };
+		00846BBB26C48EAE00637B13 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00846BBA26C48EAE00637B13 /* main.cpp */; };
+		00846BBF26C4937A00637B13 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EE826C37A2B00B8F132 /* OpenGL.framework */; };
+		00846BC026C4938700637B13 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EF026C37BEF00B8F132 /* libGLEW.2.1.0.dylib */; };
+		00846BC126C4938700637B13 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EEC26C37BE700B8F132 /* libglfw.3.3.dylib */; };
+		00A3246826D841CC00B4055B /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EF026C37BEF00B8F132 /* libGLEW.2.1.0.dylib */; };
+		00A3246926D841CC00B4055B /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EEC26C37BE700B8F132 /* libglfw.3.3.dylib */; };
+		00A3246A26D841CC00B4055B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EE826C37A2B00B8F132 /* OpenGL.framework */; };
+		00A3247326D842A300B4055B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00A3247226D842A300B4055B /* main.cpp */; };
+		00A3247826D843B400B4055B /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EF026C37BEF00B8F132 /* libGLEW.2.1.0.dylib */; };
+		00A3247926D843B400B4055B /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EEC26C37BE700B8F132 /* libglfw.3.3.dylib */; };
+		00A3247A26D843B400B4055B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003C4EE826C37A2B00B8F132 /* OpenGL.framework */; };
+		00A3248226D843E500B4055B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00A3248126D843E500B4055B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +49,33 @@
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00846BB626C48EAE00637B13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		00A3246B26D841CC00B4055B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		00A3247B26D843B400B4055B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +85,13 @@
 		003C4EEA26C37A7C00B8F132 /* glfw-3.3.4.bin.MACOS.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "glfw-3.3.4.bin.MACOS.zip"; path = "../../Downloads/glfw-3.3.4.bin.MACOS.zip"; sourceTree = "<group>"; };
 		003C4EEC26C37BE700B8F132 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../libglfw.3.3.dylib; sourceTree = "<group>"; };
 		003C4EF026C37BEF00B8F132 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
-		00846BB226C47BD300637B13 /* draw_triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = draw_triangle.cpp; sourceTree = "<group>"; };
+		00846BB826C48EAE00637B13 /* DrawTriangleBuffer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DrawTriangleBuffer; sourceTree = BUILT_PRODUCTS_DIR; };
+		00846BBA26C48EAE00637B13 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00A3246F26D841CC00B4055B /* IndexBuffers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IndexBuffers; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A3247226D842A300B4055B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00A3247F26D843B400B4055B /* DealWShaders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DealWShaders; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A3248126D843E500B4055B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00A3248526D8466600B4055B /* Basic.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = Basic.shader; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +105,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00846BB526C48EAE00637B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00846BC026C4938700637B13 /* libGLEW.2.1.0.dylib in Frameworks */,
+				00846BC126C4938700637B13 /* libglfw.3.3.dylib in Frameworks */,
+				00846BBF26C4937A00637B13 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A3246726D841CC00B4055B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A3246826D841CC00B4055B /* libGLEW.2.1.0.dylib in Frameworks */,
+				00A3246926D841CC00B4055B /* libglfw.3.3.dylib in Frameworks */,
+				00A3246A26D841CC00B4055B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A3247726D843B400B4055B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A3247826D843B400B4055B /* libGLEW.2.1.0.dylib in Frameworks */,
+				00A3247926D843B400B4055B /* libglfw.3.3.dylib in Frameworks */,
+				00A3247A26D843B400B4055B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		003C4ED426C35DA700B8F132 = {
 			isa = PBXGroup;
 			children = (
+				00A3248026D843CF00B4055B /* DealWShaders */,
+				00A3247126D8428A00B4055B /* IndexBuffers */,
 				003C4EDF26C35DA700B8F132 /* OpenGLCherno */,
+				00846BB926C48EAE00637B13 /* DrawTriangleBuffer */,
 				003C4EDE26C35DA700B8F132 /* Products */,
 				003C4EE726C37A2B00B8F132 /* Frameworks */,
 			);
@@ -77,6 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				003C4EDD26C35DA700B8F132 /* OpenGLCherno */,
+				00846BB826C48EAE00637B13 /* DrawTriangleBuffer */,
+				00A3246F26D841CC00B4055B /* IndexBuffers */,
+				00A3247F26D843B400B4055B /* DealWShaders */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				003C4EE026C35DA700B8F132 /* main.cpp */,
-				00846BB226C47BD300637B13 /* draw_triangle.cpp */,
 			);
 			path = OpenGLCherno;
 			sourceTree = "<group>";
@@ -99,6 +178,47 @@
 				003C4EE826C37A2B00B8F132 /* OpenGL.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00846BB926C48EAE00637B13 /* DrawTriangleBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				00846BBA26C48EAE00637B13 /* main.cpp */,
+			);
+			path = DrawTriangleBuffer;
+			sourceTree = "<group>";
+		};
+		00A3247126D8428A00B4055B /* IndexBuffers */ = {
+			isa = PBXGroup;
+			children = (
+				00A3247226D842A300B4055B /* main.cpp */,
+			);
+			path = IndexBuffers;
+			sourceTree = "<group>";
+		};
+		00A3248026D843CF00B4055B /* DealWShaders */ = {
+			isa = PBXGroup;
+			children = (
+				00A3248326D8459400B4055B /* res */,
+				00A3248126D843E500B4055B /* main.cpp */,
+			);
+			path = DealWShaders;
+			sourceTree = "<group>";
+		};
+		00A3248326D8459400B4055B /* res */ = {
+			isa = PBXGroup;
+			children = (
+				00A3248426D845A100B4055B /* shaders */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		00A3248426D845A100B4055B /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				00A3248526D8466600B4055B /* Basic.shader */,
+			);
+			path = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +242,57 @@
 			productReference = 003C4EDD26C35DA700B8F132 /* OpenGLCherno */;
 			productType = "com.apple.product-type.tool";
 		};
+		00846BB726C48EAE00637B13 /* DrawTriangleBuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00846BBC26C48EAE00637B13 /* Build configuration list for PBXNativeTarget "DrawTriangleBuffer" */;
+			buildPhases = (
+				00846BB426C48EAE00637B13 /* Sources */,
+				00846BB526C48EAE00637B13 /* Frameworks */,
+				00846BB626C48EAE00637B13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawTriangleBuffer;
+			productName = DrawTriangleBuffer;
+			productReference = 00846BB826C48EAE00637B13 /* DrawTriangleBuffer */;
+			productType = "com.apple.product-type.tool";
+		};
+		00A3246426D841CC00B4055B /* IndexBuffers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A3246C26D841CC00B4055B /* Build configuration list for PBXNativeTarget "IndexBuffers" */;
+			buildPhases = (
+				00A3246526D841CC00B4055B /* Sources */,
+				00A3246726D841CC00B4055B /* Frameworks */,
+				00A3246B26D841CC00B4055B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndexBuffers;
+			productName = DrawTriangleBuffer;
+			productReference = 00A3246F26D841CC00B4055B /* IndexBuffers */;
+			productType = "com.apple.product-type.tool";
+		};
+		00A3247426D843B400B4055B /* DealWShaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A3247C26D843B400B4055B /* Build configuration list for PBXNativeTarget "DealWShaders" */;
+			buildPhases = (
+				00A3247526D843B400B4055B /* Sources */,
+				00A3247726D843B400B4055B /* Frameworks */,
+				00A3247B26D843B400B4055B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DealWShaders;
+			productName = DrawTriangleBuffer;
+			productReference = 00A3247F26D843B400B4055B /* DealWShaders */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,6 +302,9 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					003C4EDC26C35DA700B8F132 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					00846BB726C48EAE00637B13 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -149,6 +323,9 @@
 			projectRoot = "";
 			targets = (
 				003C4EDC26C35DA700B8F132 /* OpenGLCherno */,
+				00846BB726C48EAE00637B13 /* DrawTriangleBuffer */,
+				00A3246426D841CC00B4055B /* IndexBuffers */,
+				00A3247426D843B400B4055B /* DealWShaders */,
 			);
 		};
 /* End PBXProject section */
@@ -159,7 +336,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				003C4EE126C35DA700B8F132 /* main.cpp in Sources */,
-				00846BB326C47BD300637B13 /* draw_triangle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00846BB426C48EAE00637B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00846BBB26C48EAE00637B13 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A3246526D841CC00B4055B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A3247326D842A300B4055B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A3247526D843B400B4055B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A3248226D843E500B4055B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +497,66 @@
 			};
 			name = Release;
 		};
+		00846BBD26C48EAE00637B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00846BBE26C48EAE00637B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00A3246D26D841CC00B4055B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00A3246E26D841CC00B4055B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00A3247D26D843B400B4055B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00A3247E26D843B400B4055B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -314,6 +574,33 @@
 			buildConfigurations = (
 				003C4EE526C35DA700B8F132 /* Debug */,
 				003C4EE626C35DA700B8F132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00846BBC26C48EAE00637B13 /* Build configuration list for PBXNativeTarget "DrawTriangleBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00846BBD26C48EAE00637B13 /* Debug */,
+				00846BBE26C48EAE00637B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A3246C26D841CC00B4055B /* Build configuration list for PBXNativeTarget "IndexBuffers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A3246D26D841CC00B4055B /* Debug */,
+				00A3246E26D841CC00B4055B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A3247C26D843B400B4055B /* Build configuration list for PBXNativeTarget "DealWShaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A3247D26D843B400B4055B /* Debug */,
+				00A3247E26D843B400B4055B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
